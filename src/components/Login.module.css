@@ -1,0 +1,57 @@
+.formContainer {
+    height: 50vh;
+    display: grid;
+    width: 463px;
+    background: #1F1F2E;
+    margin: 10% auto;
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    color: white; 
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 0.015em;
+}
+.titleLogin{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 10px;
+    margin-top: 50px;
+}
+.textLogin{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    padding-top: 0;
+}
+.inputLogin{
+    width: 370px;
+    height: 57px;
+    background: #D9D9D9;    
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    padding-left: 10px;
+    margin: 0px;
+}
+.buttonLogin{
+    margin-bottom: 40px;
+    text-align: center;
+    background: #47D366;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    color:#fff;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: 0.015em;
+}
+.buttonLogin:hover{
+    color:#47D366;
+    background: #fff;
+    transition: 0.5s;
+}
